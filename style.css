@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+.typer-wrapper {
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+  .typer-typing{
+    width: 13ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  article {
+    display: grid;
+    margin: 10px;
+    background-color: rgb(225, 244, 250);
+  }
+
+ img {
+    width: 50px;
+    height: auto;
+  }
+
+  footer {
+    display: inline-block;
+    margin-top: 10%;
+  }
