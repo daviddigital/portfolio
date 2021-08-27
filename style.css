@@ -8,6 +8,17 @@ h1 {
   align-self: center;
 }
 
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 2em;
+  margin: 0.8em 0em 0.5em 0em;
+}
+
 .typer-wrapper {
     height: 1em;
     display: flex;
