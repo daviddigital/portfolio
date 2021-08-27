@@ -5,6 +5,7 @@ body {
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
+  align-self: center;
 }
 
 .typer-wrapper {
@@ -17,15 +18,29 @@ h1 {
   }
 
   .typer-typing{
-    width: 13ch;
+    width: 7ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 1em;
-  }
+  } 
   
+  .writing-tags-software {
+    background-color: aqua;
+  }
+
+  .writing-tags-investing {
+    background-color: purple;
+  }
+  .writing-tags-automation {
+    background-color: darkred;
+  }
+  .writing-tags-solar {
+    background-color: orange;
+  }
+
   @keyframes typing {
     from {
       width: 0
@@ -48,3 +63,11 @@ h1 {
     width: 100px;
     height: auto;
   }
+
+  .profile-picture  {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    border-radius: 50%;
+}
