@@ -9,85 +9,66 @@
     <title>Projects</title>
 </head>
 
-<body>
-    <header>
+<body class="page">
+    <header class="header">
         <!-- should nav be oustide of header? -->
         <nav>
             <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
             <a href="writing.html">Writing</a>
+            <a href="img/David Watts 2021 May.pdf" download>Resume</a>
             <a href="contact.html">Contact</a>
-            <a href="img/David Watts 2021 May.pdf" download>Download Resume</a>
-
         </nav>
     </header>
-    <section>
-        <h1>Projects</h1>
-    </section>
-    <article>
-        <h2 class="project-name">Portfolio Page</h2>
-        <img class="project-hero-img" src="img/houseprices.png" alt="House Prices Model">
-        <p class="project-client-key">Client:</p>
-        <p class="project-client-value">As part of Full Stack Web Development course at CA</p>
-        <p class="project-description-key">Description:</p>
-        <P class="project-description-value">A basic portfolio page using HTML5 and css.</P>
-        <p class="project-languages">HTML5, css</p>
-        <a href="https://github.com/daviddigital/portfolio"><img class="project-github-link" src="img/GitHub_Logo.png"
-                alt=""></a>
-    </article>
-    <article>
-        <h2 class="project-name">Melbourne House Price Prediction</h2>
-        <img class="project-hero-img" src="img/houseprices.png" alt="House Prices Model">
-        <p class="project-client-key">Client:</p>
-        <p class="project-client-value">As part of Computer Science at RMIT</p>
-        <p class="project-description-key">Description:</p>
-        <P class="project-description-value">Developed a regression model using Python & Jupyter Notebooks for
-            predicting house sale prices in Melbourne. </P>
-        <p class="project-languages">Python, Jupyter Notebooks, pandas, numpy</p>
-        <a href="https://github.com/daviddigital/melbournehouseprices"><img class="project-github-link"
-                src="img/GitHub_Logo.png" alt=""></a>
-    </article>
-    <article>
-        <h2 class="project-name">Light Sensor on Microbit</h2>
-        <img class="project-hero-img" src="img/houseprices.png" alt="House Prices Model">
-        <p class="project-client-key">Client:</p>
-        <p class="project-client-value">As part of Computer Science at RMIT</p>
-        <p class="project-description-key">Description:</p>
-        <P class="project-description-value">Developed a basic app enabling a microbit to take light measurements and
-            export to a .csv log. </P>
-        <p class="project-languages">Python</p>
-        <a href="https://github.com/daviddigital/lightsensor "><img class="project-github-link"
-                src="img/GitHub_Logo.png" alt=""></a>
+    <h1>Projects</h1>
+    <main class="grid">
+    <article class="grid-item">
+        <h2>Portfolio Page</h2>
+        <img src="img/houseprices.png" alt="House Prices Model">
+        <P>This portfolio page was built using HTML5 and Sass/CSS, focusing on simplicity 
+            and accessibility through semantic elements.</P>
+        <a href="https://github.com/daviddigital/portfolio">&rarr; GitHub</a>
     </article>
 
-    <article>
-        <h2 class="project-name">Integration with DEAR Systems</h2>
-        <img class="project-hero-img" src="" alt="">
-        <p class="project-client-key">Client:</p>
-        <p class="project-client-value"><a href="https://rfsystems.com">RF Systems</a></p>
-        <p class="project-description-key">Description:</p>
-        <P class="project-description-value">Configured a custom Zapier app to connect a web-form to an inventory system
+    <article class="grid-item">
+        <h2>House Price Prediction</h2>
+        <img src="img/houseprices.png" alt="House Prices Model">
+        <P>Developed a regression model using Python & Jupyter Notebooks for
+            predicting house sale prices in Melbourne. </P>
+        <a href="https://github.com/daviddigital/melbournehouseprices">&rarr; GitHub</a>
+    </article>
+
+    <article class="grid-item">
+        <h2>Light Sensor On Microbit</h2>
+        <img src="img/houseprices.png" alt="House Prices Model">
+        <P>Developed a basic app enabling a microbit to take light measurements and
+            export to a .csv log. </P>
+        <a href="https://github.com/daviddigital/lightsensor ">&rarr; GitHub</a>
+    </article>
+
+    <article class="grid-item">
+        <h2 class="project-name">Integration With DEAR Systems</h2>
+        <img src="img/houseprices.png" alt="House Prices Model">
+        <P>Configured a custom Zapier app to connect a web-form to an inventory system
             via APIs. Mainly an object/data mapping exercise based on API documentation.
             Tested and deployed successfully on Zapier. </P>
-        <p class="project-languages">JavaScript</p>
-        <a href="https://github.com/daviddigital/dearintegrations"><img class="project-github-link"
-                src="img/GitHub_Logo.png" alt=""></a>
-    </article>
-    <article>
-        <h2 class="project-name">SaaS Product</h2>
-        <img class="project-hero-img" src="" alt="">
-        <p class="project-client-key">Client:</p>
-        <p class="project-client-value"><a href="https://www.ivvy.com/venues/welcome/">iVvy</a></p>
-        <p class="project-description-key">Description:</p>
-        <P class="project-description-value">As a Product/Business Analyst, I developed wireframes and user stories for 200+ features, including invoicing, payments, eSignatures, workflows, reports and more.</P>
-        <p class="project-languages">HTML5, CSS, Balsamic</p>
-    
+        <a href="https://github.com/daviddigital/dearintegrations">&rarr; GitHub</a>
     </article>
 
-    <footer>
+    <article class="grid-item">
+        <h2 class="project-name">iVvy Events SaaS</h2>
+        <img src="img/houseprices.png" alt="House Prices Model">
+        <P>As a Product/Business Analyst, I developed 
+            wireframes and user stories for 200+ features, including invoicing, payments, eSignatures, workflows, 
+            reports and more.</P>
+        <a href="https://www.ivvy.com">&rarr; iVvy.com</a>
+    
+    </article>
+</main>
+    <footer class="footer">
         <a href="">Github</a>
         <a href="">Linkedin</a>
         <a href="">davidwatts11@gmail.com</a>
     </footer>
-
+</body>
 </html>

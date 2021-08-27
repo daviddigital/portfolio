@@ -1,11 +1,12 @@
+
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  // font-size: calc(16px + 0.3vw);
   font-weight: 300;
   line-height: 1.4;
   text-align: center;
   padding: 40px 30px 30px;
 }
-
 h1 {
   font-size: 2.2em;
   line-height: 1.1;
@@ -19,13 +20,16 @@ h2 {
   font-weight: 400;
   margin: 0 0 0.8em;
 }
-
 .page {
   height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-rows: auto;
-  grid-template-areas: "header" "grid" "footer";
+  grid-template-rows: auto; 
+  grid-template-areas:
+  "header"
+  "grid"
+  "footer";
+  
 }
 
 .footer {
@@ -39,8 +43,8 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 20px;
+  
 }
-
 .grid-hp {
   display: flex;
   align-items: center;
@@ -51,17 +55,18 @@ h2 {
   border: 1px solid #ccc;
   padding: 20px;
   align-items: center;
-}
-.grid-item img {
-  width: 80%;
-  height: auto;
-}
-.grid-item a {
-  text-decoration: none;
-  color: #000;
-}
-.grid-item a:hover {
-  color: lightgrey;
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: lightgrey;
+    }
+  }
 }
 
 .grid-item-hp {
@@ -74,7 +79,6 @@ h2 {
   width: 90%;
   margin: 20px auto;
 }
-
 .profile-picture {
   display: flex;
   justify-content: center;
@@ -85,47 +89,42 @@ h2 {
   font-size: 2em;
   margin: 0.8em 0em 0.5em 0em;
 }
+  
+  .writing-tags-software {
+    background-color: aqua;
+  }
 
-.writing-tags-software {
-  background-color: aqua;
-}
+  .writing-tags-investing {
+    background-color: purple;
+  }
+  .writing-tags-automation {
+    background-color: darkred;
+  }
+  .writing-tags-solar {
+    background-color: orange;
+  }
 
-.writing-tags-investing {
-  background-color: purple;
-}
+ .project-github-link {
+    width: 100px;
+    height: auto;
+  }
 
-.writing-tags-automation {
-  background-color: darkred;
-}
-
-.writing-tags-solar {
-  background-color: orange;
-}
-
-.project-github-link {
-  width: 100px;
-  height: auto;
-}
-
-.profile-picture {
-  height: auto;
-  width: auto;
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 50%;
-  align-items: stretch;
+  .profile-picture  {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    border-radius: 50%;
+    align-items:stretch;
 }
 
 @media only screen and (max-width: 768px) {
   .page {
     height: 100%;
   }
-
   .grid {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr;
-  }
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr;
 }
-
-/*# sourceMappingURL=style.css.map */
+}
