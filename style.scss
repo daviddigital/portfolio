@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   // font-size: calc(16px + 0.3vw);
@@ -6,6 +8,7 @@ body {
   line-height: 1.4;
   text-align: center;
   padding: 40px 30px 30px;
+  background-color: #fafafa;
 }
 h1 {
   padding-top: 10px;
