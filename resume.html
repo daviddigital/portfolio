@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>David Watts Resume</title>
 </head>
 
 <body>
     <header class="header">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="writing.html">Writing</a>
-            <a href="img/David Watts 2021 May.pdf" download>PDF Resume</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <h1>Projects</h1>
+    <h1>Resume</h1>
     <main class="grid">
+        <article id="dl-resume" class="grid-item">
+            <h2> <a href="img/David Watts 2021 May.pdf"> &rarr; Download Full Resume </a></h2>
+    
+        </article>
     <article class="grid-item">
         <h2>Portfolio Page</h2>
-        <img src="img/profile_6x3.png" alt="House Prices Model">
+        <img src="img/CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="">
         <P>This portfolio page was built using HTML5 and Sass/CSS, focusing on simplicity 
-            and accessibility through semantic elements.</P>
+            and accessibility.</P>
         <a href="https://github.com/daviddigital/portfolio">&rarr; GitHub</a>
     </article>
 
     <article class="grid-item">
         <h2>House Price Prediction</h2>
-        <img src="img/house_price_6x3.png" alt="House Prices Model">
+        <img src="img/pythonicon.png" alt="House Prices Model">
         <P>Developed a regression model using Python & Jupyter Notebooks for
             predicting house sale prices in Melbourne. </P>
         <a href="https://github.com/daviddigital/melbournehouseprices">&rarr; GitHub</a>
@@ -39,7 +44,7 @@
 
     <article class="grid-item">
         <h2>Sensor On Microbit</h2>
-        <img src="img/microbit_6x3.png" alt="Microbit with LEDs in loveheart shape.">
+        <img src="img/microbiticon.png" alt="Microbit logo.">
         <P>Developed a basic app enabling a microbit to take light measurements and
             export to a .csv log. </P>
         <a href="https://github.com/daviddigital/lightsensor ">&rarr; GitHub</a>
@@ -47,7 +52,7 @@
 
     <article class="grid-item">
         <h2 class="project-name">DEAR Integration</h2>
-        <img src="img/dear_6x3.png" alt="House Prices Model">
+        <img src="img/dearsystemsicon.png" alt="House Prices Model">
         <P>Configured a custom Zapier app to connect a web-form to an inventory system
             via APIs. Mainly an object/data mapping exercise based on API documentation.
             Tested and deployed successfully on Zapier. </P>
@@ -56,18 +61,24 @@
 
     <article class="grid-item">
         <h2 class="project-name">iVvy SaaS</h2>
-        <img src="img/ivvy_6x3.png" alt="House Prices Model">
+        <img src="img/ivvyicon.png" alt="House Prices Model">
         <P>As a Product/Business Analyst, I developed 
             wireframes and user stories for 200+ features, including invoicing, payments, eSignatures, workflows, 
             reports and more.</P>
         <a href="https://www.ivvy.com">&rarr; iVvy.com</a>
     
     </article>
+
+    
 </main>
-    <footer class="footer">
-        <a href="">Github</a>
-        <a href="">Linkedin</a>
-        <a href="">davidwatts11@gmail.com</a>
-    </footer>
+<footer class="footer">
+    <nav>
+        <ul>
+        <li><a href="https://github.com/daviddigital"><img src="img/GitHub-Mark-32px.png" alt="GitHub Profile"></a></li>
+        <li><a href="https://www.linkedin.com/in/davidwatts11/"><img src="img/linkedin.png" alt="LinkedIn Profile"></a></li>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>
+
