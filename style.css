@@ -99,20 +99,25 @@ h2 {
   margin: 0.8em 0em 0.5em 0em;
 }
 
-.writing-tags-software {
-  background-color: aqua;
+.writing-tags-software, .writing-tags-solar, .writing-tags-automation, .writing-tags-investing {
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #264653;
+  color: white;
+  font-size: small;
+  font-weight: 700;
 }
 
 .writing-tags-investing {
-  background-color: purple;
+  background-color: #2a9d8f;
 }
 
 .writing-tags-automation {
-  background-color: darkred;
+  background-color: #e76f51;
 }
 
 .writing-tags-solar {
-  background-color: orange;
+  background-color: #f4a261;
 }
 
 .project-github-link {

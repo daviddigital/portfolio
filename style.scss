@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -53,6 +54,7 @@ h2 {
   justify-content: space-between;
   padding: 20px;
 }
+
 .grid-hp {
   display: grid;
   grid-template-columns: 1fr;
@@ -77,6 +79,7 @@ h2 {
     }
   }
 }
+
 
 .grid-item-hp {
   padding: 20px;
@@ -103,17 +106,25 @@ h2 {
 }
   
   .writing-tags-software {
-    background-color: aqua;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #264653;
+    color: white;
+    font-size: small;
+    font-weight: 700;
   }
 
   .writing-tags-investing {
-    background-color: purple;
+    @extend .writing-tags-software;
+    background-color:#2a9d8f;
   }
   .writing-tags-automation {
-    background-color: darkred;
+    @extend .writing-tags-software;
+    background-color:#e76f51; 
   }
   .writing-tags-solar {
-    background-color: orange;
+    @extend .writing-tags-software;
+    background-color: #f4a261;
   }
 
  .project-github-link {
