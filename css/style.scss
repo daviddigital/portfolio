@@ -30,6 +30,7 @@ p {
   padding: 1em;
 }
 
+//Styling start for both the header (page menu) and footer navigation (social links)
 
 nav ul {
   display: flex;
@@ -57,6 +58,9 @@ nav a:hover {
   // border-top: 1px solid #ccc;
 }
 
+// Styling end for header and foot navigation 
+
+// Wrapper for the resume project grid
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -66,21 +70,29 @@ nav a:hover {
   
 }
 
+// Wrapper for the blog post grid
 .grid-writing {
   display: grid;
   grid-template-columns: 100%;
 }
+
+
+// Wrapper for the home page grid 
 
 .grid-hp {
   display: grid;
   grid-template-columns: 1fr;
 }
 
+// Styling for the Resume projects grid items
+
 .grid-item {
   border: 1px solid #ccc;
   padding: 20px;
   align-items: center;
 }
+
+// Design for the blog articles
 .grid-writing .grid-item {
   border: none;
   border-bottom: 1px solid #ccc;
@@ -88,22 +100,29 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.grid-writing .grid-item-contact {
+// Design for contact page to ensure there is no divider border
+.grid-item-contact {
   border: none;
   border-bottom: none;
   width: 80%;
   margin: 0 auto;
 }
 
+// Images for Resume grid
+
 .grid img {
   width: 100px;
   height: auto;
 }
 
+// Images for Blog grid
+
 .grid-writing img {
   max-width: 100%;
   height: auto;
 }
+
+// Styling for links in Resume grid and Contact grid
 
 .grid-item a, .grid-item-contact a {
   text-align: end;
@@ -119,6 +138,7 @@ nav a:hover {
   margin: 20px auto;
 }
 
+// Styling for about me page
 .profile-picture {
   justify-content: center;
   align-items: center;
@@ -129,6 +149,7 @@ nav a:hover {
   margin: 0.8em 0em 0.5em 0em;
 }
 
+// Styling for tags on blog psots 
 .writing-tags-software, .writing-tags-solar, .writing-tags-automation, .writing-tags-investing {
   padding: 5px;
   border-radius: 15px;
@@ -150,11 +171,6 @@ nav a:hover {
   background-color: #f4a261;
 }
 
-.project-github-link {
-  width: 100px;
-  height: auto;
-}
-
 .profile-picture {
   height: auto;
   width: auto;
@@ -174,7 +190,7 @@ nav a:hover {
 #dl-resume {
   display: flex;
 }
-// Phone styles below. Note for tablet, the desktop sizing has been tested and is fine. 
+// Phone styles below to reduce padding. Note for tablet, the desktop sizing has been tested and is fine. 
 @media only screen and (max-width: 480px) {
   
   .grid, .grid-writing {

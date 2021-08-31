@@ -88,7 +88,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.grid-writing .grid-item-contact {
+.grid-item-contact {
   border: none;
   border-bottom: none;
   width: 80%;
@@ -149,11 +149,6 @@ nav a:hover {
 
 .writing-tags-solar {
   background-color: #f4a261;
-}
-
-.project-github-link {
-  width: 100px;
-  height: auto;
 }
 
 .profile-picture {
