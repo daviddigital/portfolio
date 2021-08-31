@@ -1,0 +1,83 @@
+commit 9c9c7d83efb38b406b0eae375227272d359300b8
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Tue Aug 31 11:05:09 2021 +1000
+
+    minor styling changes, added comments for components
+
+commit 71dffbae7abced7d5840d9e74a043297921165be
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Tue Aug 31 09:57:42 2021 +1000
+
+    fixed some urls and shrunk some imgs
+
+commit f558c93920afd20e5aea4c8ec0c3a2f7a18df847
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Tue Aug 31 00:22:47 2021 +1000
+
+    fixed dead link
+
+commit 65fc3bea0a5cd089639b0689f89379f3901912c8
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Tue Aug 31 00:03:31 2021 +1000
+
+    fixed dead link
+
+commit 579e195a6cd318e5c8024c4e82a2af0f52c672a2
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Mon Aug 30 23:54:48 2021 +1000
+
+    completed most of the pages. ready for review
+
+commit 467483046b2e98979fb629355233333d466a4c2c
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Mon Aug 30 10:04:15 2021 +1000
+
+    added grid styling to writing page
+
+commit ebb584368778c35a3f9b0f02359c20e5085bc9ac
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Sat Aug 28 11:53:01 2021 +1000
+
+    fixed project
+
+commit ada813b3d8b6b0c15b7ef259b26c43f59035b8a7
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Sat Aug 28 10:51:56 2021 +1000
+
+    fixed grid
+
+commit 5d7f347ea039a456cbe8d11370826d4eaa226bd1
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Sat Aug 28 02:27:48 2021 +1000
+
+    updated projects and homepage with grid
+
+commit d3f5a12482c40a6932406600979dc6a52492cbe9
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Fri Aug 27 15:58:59 2021 +1000
+
+    Added styling for homepage
+
+commit 90d112fb205807f95e7d1b0f094dc5068d5164a0
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Fri Aug 27 13:44:58 2021 +1000
+
+    Added more html content
+
+commit 8ada5c6c146a5b34d24c8ed04d0925f05a80ea0d
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Fri Aug 27 01:12:11 2021 +1000
+
+    continued building out content
+
+commit de2ce3e964a3dcb6d30aa343caad0f43d249e283
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Fri Aug 27 00:36:41 2021 +1000
+
+    building out content
+
+commit 7ce9e6606f75472d24b6f0e4d0efa84066388e00
+Author: David Watts <davidwatts11@gmail.com>
+Date:   Wed Aug 25 17:04:04 2021 +1000
+
+    first commit
