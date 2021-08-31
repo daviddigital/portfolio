@@ -15,19 +15,24 @@ body {
 h1 {
   padding-top: 10px;
   font-size: 2.7em;
-  margin: 0 0 0.3em;
+  margin: 0 0 0.3rem;
 }
 
 h2 {
   font-size: 1.5em;
   line-height: 1.3;
   font-weight: 400;
-  margin: 0 0 0.8em;
+  margin: 0 0 0.8rem;
 }
 
 p {
-  margin: 0 0 0 0.8em;
-  padding: 1em;
+  padding: .5rem;
+}
+
+
+a {
+  text-decoration: none;
+  color: #4C74B9; 
 }
 
 //Styling start for both the header (page menu) and footer navigation (social links)
@@ -39,6 +44,7 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 nav li {
@@ -127,8 +133,10 @@ nav a:hover {
 .grid-item a, .grid-item-contact a {
   text-align: end;
   text-decoration: none;
-  color: #000;
+  color: #4C74B9;
 }
+
+
 .grid-item a:hover, .grid-item-contact a:hover {
   color: lightgrey;
 }
@@ -190,6 +198,7 @@ nav a:hover {
 #dl-resume {
   display: flex;
 }
+
 // Phone styles below to reduce padding. Note for tablet, the desktop sizing has been tested and is fine. 
 @media only screen and (max-width: 480px) {
   
