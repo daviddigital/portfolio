@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #2B2E30;
+  color: #ffffff;
 }
 
 body {
@@ -31,7 +33,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #4C74B9;
+  color: #BB86FC;
 }
 
 nav ul {
@@ -49,12 +51,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   display: inline-block;
 }
 
 nav a:hover {
-  color: lightgrey;
+  color: #BB86FC;
 }
 
 .footer {
@@ -75,14 +77,17 @@ nav a:hover {
 }
 
 .grid-hp {
-  display: grid;
-  grid-template-columns: 1fr;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #2B2E30;
+  box-shadow: 4px 4px 25px #202324;
 }
 
 .grid-item {
-  border: 1px solid #ccc;
   padding: 20px;
-  align-items: center;
+  border-radius: 25px;
+  background-color: #2B2E30;
+  box-shadow: 4px 4px 25px #202324;
 }
 
 .grid-writing .grid-item {
@@ -112,7 +117,7 @@ nav a:hover {
 .grid-item a, .grid-item-contact a {
   text-align: end;
   text-decoration: none;
-  color: #4C74B9;
+  color: #BB86FC;
 }
 
 .grid-item a:hover, .grid-item-contact a:hover {
