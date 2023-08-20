@@ -1,4 +1,6 @@
 # Portfolio Website
 
-## Deployed Website
-https://dwatts.com.au
+Basic vanilla HTML/CSS responsive website for my portfolio (not currently deployed).
+
+## Screenshot
+
