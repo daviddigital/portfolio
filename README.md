@@ -1,6 +1,5 @@
 # Portfolio Website
 
-Basic vanilla HTML/CSS responsive website for my portfolio (not currently deployed).
+Basic dark theme vanilla HTML/CSS responsive website for my portfolio (not currently deployed).
 
-!(screenshot)[/img/screenshot.png]
-
+![image info](./screenshot.png)
