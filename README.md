@@ -2,5 +2,5 @@
 
 Basic vanilla HTML/CSS responsive website for my portfolio (not currently deployed).
 
-## Screenshot
+!(screenshot)[/img/screenshot.png]
 
